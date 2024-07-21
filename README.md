@@ -1,6 +1,5 @@
 # PRODIGY_CS_02
 
-<br>
 
 This repository contains a Python script that will encrypt/decrypt an image using simple mathematical logic. It requires two things, data and key.When XOR operation is applied on both the operands i.e data and key, the data gets encrypted but when the same process is done again with the same key-value data gets decrypted.
 
