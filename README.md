@@ -6,6 +6,10 @@ This repository contains a Python script that will encrypt/decrypt an image usin
 
 <br>
 
+Features:-
+- Encrypt Images: Apply a key to modify pixel values and encrypt the image.
+- Decrypt Images: Reverse the encryption by using the same key to restore the original image.
+
 Encryption:-
 First, we will select an image, and then we will convert that image into a byte array due to which the image data will be totally converted into numeric form, and then we can easily apply the XOR operation to it. Now, whenever we will apply the XOR function on each value of the byte array then the data will be changed due to which we will be unable to access it. But we should remember one thing here our encryption key plays a very important role without that key we can not decrypt our image. It acts as a password to decrypt it.
 
